@@ -16,14 +16,6 @@ def cooldown(func_name, seconds=2):
 		return True
 	return False
 
-def function_name():
-	if cooldown("function_name"):
-		print("function_name was called!")
-
-def another_function():
-	if cooldown("another_function"):
-		print("another_function was called!")
-
 def test_notification():
 	if cooldown("test_notification"):
 		threading.Thread(target=show_test_notification, daemon=True).start()
@@ -37,9 +29,7 @@ def open_work_apps():
 		return
 	program_paths = [
 		r"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-		r"C:\\Users\\Ромэо\\AppData\\Local\\Programs\\YandexMusic\\Яндекс Музыка.exe",
-		r"C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.3.5\\bin\\pycharm64.exe",
-		r"C:\\Users\\Ромэо\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe"
+		r"C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.3.5\\bin\\pycharm64.exe"
 	]
 	for path in program_paths:
 		try:
@@ -54,8 +44,6 @@ def show_notification():
 
 function_map = {
 	"test_notification": test_notification,
-	"function_name": function_name,
-	"another_function": another_function,
 	"open_work_apps": open_work_apps
 }
 
