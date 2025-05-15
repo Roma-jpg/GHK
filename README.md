@@ -56,21 +56,20 @@ Each key combination triggers the corresponding function name.
 ## 💡 Pro Tips
 
 * To avoid Windows conflicts, prefer combos like `ctrl+alt+shift+X` or `win+alt+shift+X`.
-* You can run GHK on startup by creating a `.bat` file in the Windows startup folder.
+* You can run GHK on startup by creating a `.bat` file in the Windows startup folder. You can access it using Win+R and typing "shell:startup".
 
 Example batch:
 
 ```bat
 @echo off
 chcp 1251 >nul
-start "" "C:\Users\YOURNAME\PycharmProjects\Scripts\.venv\Scripts\pythonw.exe" "C:\Users\YOURNAME\PycharmProjects\Scripts\GHK\main.py"
+start "" pythonw "C:\Path\To\GHK.py"
 exit
 ```
 
 ## ❗ Notes
 
 * Do not forget to replace hardcoded paths (`open_work_apps()`) with your actual program locations.
-* Works best when converted to `.exe` with tools like `pyinstaller`.
 
 ## 🛠️ Disclaimer
 
