@@ -1,0 +1,6 @@
+{
+    "ctrl+shift+k": "function_name",
+    "ctrl+alt+h": "another_function",
+    "ctrl+alt+shift+w": "open_work_apps",
+    "ctrl+alt+shift+t": "test_notification"
+}
