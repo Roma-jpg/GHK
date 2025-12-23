@@ -4,7 +4,7 @@
 
 GHK was made for personal productivity and automation.
 
-## 💻 Features
+## Features
 
 * Global keyboard shortcut listener
 * Easy configuration via `shortcuts.json`
@@ -13,7 +13,7 @@ GHK was made for personal productivity and automation.
 * Cooldown system to prevent accidental multiple activations
 * Portable and super lightweight
 
-## 🚀 Requirements
+## Requirements
 
 * Python 3.9+
 * Libraries:
@@ -27,7 +27,7 @@ Install them via:
 pip install keyboard win10toast
 ```
 
-## ⚙️ Usage
+## Usage
 
 1. Clone or download the repository.
 2. Place your `shortcuts.json` file in the same folder as `main.py`.
@@ -35,7 +35,7 @@ pip install keyboard win10toast
 
 You will get a Windows notification when the tool is ready.
 
-## 🎛️ shortcuts.json structure
+## shortcuts.json structure
 
 Example `shortcuts.json`:
 
@@ -48,12 +48,12 @@ Example `shortcuts.json`:
 
 Each key combination triggers the corresponding function name.
 
-## 📥 Built-in Functions
+## Built-in Functions
 
 * `test_notification()`: Shows a test Windows toast notification.
 * `open_work_apps()`: Launches your most used programs. (Hardcoded paths, modify in code)
 
-## 💡 Pro Tips
+## Pro Tips
 
 * To avoid Windows conflicts, prefer combos like `ctrl+alt+shift+X` or `win+alt+shift+X`.
 * You can run GHK on startup by creating a `.bat` file in the Windows startup folder. You can access it using Win+R and typing "shell:startup".
