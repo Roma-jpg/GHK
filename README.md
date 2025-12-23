@@ -67,11 +67,11 @@ start "" pythonw "C:\Path\To\GHK.py"
 exit
 ```
 
-## ❗ Notes
+## Notes
 
 * Do not forget to replace hardcoded paths (`open_work_apps()`) with your actual program locations.
 
-## 🛠️ Disclaimer
+## Disclaimer
 
 This project was made for fun and personal use. Use at your own risk.
 The author is not responsible for any possible damage caused by this program
